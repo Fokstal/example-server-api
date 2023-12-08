@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/fokstal/Documents/Projects/example-server/example-server.csproj": {}
+    "/home/fokstal/Documents/Projects/example-server-api/example-server-api.csproj": {}
   },
   "projects": {
-    "/home/fokstal/Documents/Projects/example-server/example-server.csproj": {
+    "/home/fokstal/Documents/Projects/example-server-api/example-server-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/fokstal/Documents/Projects/example-server/example-server.csproj",
-        "projectName": "example-server",
-        "projectPath": "/home/fokstal/Documents/Projects/example-server/example-server.csproj",
+        "projectUniqueName": "/home/fokstal/Documents/Projects/example-server-api/example-server-api.csproj",
+        "projectName": "example-server-api",
+        "projectPath": "/home/fokstal/Documents/Projects/example-server-api/example-server-api.csproj",
         "packagesPath": "/home/fokstal/.nuget/packages/",
-        "outputPath": "/home/fokstal/Documents/Projects/example-server/obj/",
+        "outputPath": "/home/fokstal/Documents/Projects/example-server-api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/fokstal/.nuget/NuGet/NuGet.Config"
@@ -38,10 +38,6 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
